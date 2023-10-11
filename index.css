@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+    color: rgb(218, 104, 11);
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: Barrio;
+    src: url()
+  }
+  
+  h1 {
+    font-family: Barrio;
+  }
+.imagemcod {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    max-width: 19000px;
+
+}
+
+.titulos {
+    background-image: url(cod-zombies-black-ops-3-peaked-activsion-call-of-duty-cold-war-vanguard-zombies.jpg);
+    border-radius: 50px;
+    border-style: groove;
+}
+ul {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 104, 11);
+    font-weight: bold;
+    font-style: italic;
+    display: center;
+
+
+}
+body {
+    background-color: rgba(0, 0, 0, 0.719);
+
+}
+.imagemcod {
+    width: 70%;
+    transition: 400ms;
+    box-shadow: 0 10px 10px 0 #000000;
+}
+
+.imagemcod {
+    opacity: 0.3;
+}
+.dropdown-{
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: rgb(218, 104, 11);
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
